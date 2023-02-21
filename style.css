@@ -1,0 +1,168 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  color: #fafafa;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 70%;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  background: #40C4FF;
+  border-radius: 10px;
+  color: #fafafa;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  margin-top: 12px;
+  padding: 15px 30px;
+}
+
+button.dica {
+  background: #40C4FF;
+  padding: 10px 20px;
+}
+
+.resultado {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.pokemon{
+  -webkit-user-drag: none; 
+  height: 150px;
+  margin: 20px 0;
+}
+
+.pokemon.escondido{
+  filter: brightness(0) drop-shadow(0px 5px 30px #40C4FF);
+}
+
+.dica small{
+  display: block;
+}
+.dica small.hidden{
+  display: none;
+}
+
+.again{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+.tipos{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px auto;
+  width: 20%;
+}
+
+.tipos p{
+  border: 1px solid #050505;
+  border-radius: 10%;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 900;
+  font-size: 11pt;
+  padding: 10px 0;
+  width: 100px;
+}
+
+/* Cores dos fundos de cada tipo */
+
+.normal{
+  background-color: #a8a878;
+}
+.fighting{
+  background-color: #C03028;
+}
+.flying{
+  background-color: #A890F0;
+}
+.poison{
+  background-color: #A040A0;
+}
+.ground{
+  background-color: #E0C068;
+}
+.rock{
+  background-color: #B8A038;
+}
+.bug{
+  background-color: #B8B8D0;
+}
+.ghost{
+  background-color: #705898;
+}
+.steel{
+  background-color: #B8B8D0;
+}
+.fire{
+  background-color: #F08030;
+}
+.water{
+  background-color: #6890F0;
+}
+.grass{
+  background-color: #78C850;
+}
+.electric{
+  background-color: #F8D030;
+}
+.psychic{
+  background-color: #F85888;
+}
+.ice{
+  background-color: #98D8D8;
+}
+.dragon{
+  background-color: #7038F8;
+}
+.dark{
+  background-color: #705848;
+}
+.fairy{
+  background-color: #EE99AC;
+}

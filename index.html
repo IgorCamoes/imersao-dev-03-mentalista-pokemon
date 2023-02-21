@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>03 Mentalista - Imersão Dev</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Mentalista Pokémon edition
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt=""><br>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <p class="page-subtitle">
+      Tente descobrir qual é esse pokémon* em 10 tentativas!
+    </p>
+    <small>*Pokémons até a 8ª geração.</small>
+    <div class="pkm-wrapper">
+      <img src="" alt="" class="pokemon escondido">
+      <div class="dica">
+        <small class="hidden">Dica:</small>
+        <div class="tipos">
+          
+        </div>
+      </div>
+    </div>
+    <span class="msg"></span><br>
+    <span class="again"></span><br>
+    <input type="text" id="input-tentativas"><br>
+    <div class="botoes">
+      <button onclick="chutar(pkmName)">Chutar</button> <br>
+      <button onclick="chamarDica(pkmTypes)" class="dica">Dica</button>
+    </div>
+  </div>
+  
+  
+</body>
+</html>
